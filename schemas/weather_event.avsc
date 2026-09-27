@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "WeatherEvent",
+  "namespace": "com.alex.weather",
+  "fields": [
+    { "name": "city", "type": "string" },
+    { "name": "timestamp", "type": "string" },
+    { "name": "temperature", "type": "float" },
+    { "name": "humidity", "type": "int" },
+    { "name": "wind_speed", "type": "float" },
+    { "name": "conditions", "type": "string" }
+  ]
+}
